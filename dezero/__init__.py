@@ -12,6 +12,7 @@ if is_simple_core:
 else:
     from dezero.core import (
         Variable,
+        Parameter,
         Function,
         using_config,
         no_grad,
