@@ -1,6 +1,10 @@
-from PIL import Image
-from dezero.utils import pair
 import numpy as np
+
+try:
+    import Image
+except ImportError:
+    from PIL import Image
+from dezero.utils import pair
 
 
 class Compose:
